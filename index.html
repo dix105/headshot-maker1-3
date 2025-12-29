@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove SynthID | AI Watermark Remover</title>
+    <meta name="description" content="Remove invisible Synth ID watermarks from AI-generated images. The Image Synth ID Remover detects and removes hidden identifiers while preserving original photo quality.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- SEO Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Headshot Maker1",
+      "description": "Remove invisible Synth ID watermarks from AI-generated images. The Image Synth ID Remover detects and removes hidden identifiers while preserving original photo quality.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "mainEntity": {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Synth ID Remover?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A Synth ID Remover is a tool designed to detect and remove the invisible Synth ID watermark embedded in AI-generated images, resulting in a clean version of the photo." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Synth ID?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Synth ID is an invisible digital watermark added to certain Google AI–generated images. It is embedded at the pixel level, making it invisible to the human eye but detectable with specialized tools." }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do AI images include a Synth ID watermark?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Google AI systems add Synth ID watermarks to help identify AI-generated content and support transparency, tracking, and responsible AI use." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does removing Synth ID reduce image quality?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. The Synth ID Remover removes the hidden watermark without changing or degrading the visual quality of the image." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it remove other types of watermarks?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The tool is specifically designed for Synth ID removal and may not work on visible watermarks or other types of digital markers." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Synth ID watermark visible?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Synth ID is completely invisible and can only be detected using tools designed to identify these hidden markers." }
+          },
+          {
+            "@type": "Question",
+            "name": "What image formats are supported?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The Synth ID Remover supports common image formats used for AI-generated images, including JPG and PNG." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it safe to use a Synth ID Remover?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. The tool processes images securely and focuses only on detecting and removing the Synth ID watermark." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does the removal process take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The process is fast. Simply upload your image, click remove, and receive the cleaned image within moments." }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fa-solid fa-dna"></i>
+            <span>HEADSHOT<span class="text-primary">MAKER1</span></span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav>
+            <a href="#playground">Tool</a>
+            <a href="#how-to-use">How it Works</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#faqs">FAQs</a>
+            <!-- CTA inside nav for mobile layout safety -->
+            <a href="#playground" class="btn btn-sm btn-primary">Launch App</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-image">
+            <img src="images/hero-bg.jpg" alt="Dark cyberpunk void with digital rain" loading="eager">
+        </div>
+        <div class="hero-bg-animation">
+            <!-- Grid Scanner Animation -->
+            <div class="scan-line"></div>
+        </div>
+        <div class="hero-content">
+            <div class="badge-container fade-in-up">
+                <span class="status-badge"><span class="blink"></span> SYSTEM ONLINE</span>
+            </div>
+            <h1 class="glitch-title fade-in-up delay-1" data-text="Remove SynthID">Remove SynthID</h1>
+            <p class="fade-in-up delay-2">The Image Synth ID Remover removes invisible Synth ID watermarks from Gemini generated images by detecting and clearing hidden markers without affecting image quality.</p>
+            <div class="hero-actions fade-in-up delay-3">
+                <a href="#playground" class="btn btn-primary btn-lg btn-glow">Start Scanning <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Playground Section (LOCKED) -->
+    <section id="playground">
+        <div class="container">
+            <div class="section-header">
+                <h2>Remove SynthID</h2>
+                <p>Detect and purify invisible digital markers.</p>
+            </div>
+            
+            <div class="locked-zone">
+                <div class="lock-icon-container">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <h3 class="glitch-text">EFFECT LAB LOCKED</h3>
+                <p>The 'Remove SynthID' effect is under development.</p>
+                
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span>System Calibration</span>
+                        <span>85%</span>
+                    </div>
+                </div>
+                
+                <div class="notify-form">
+                    <button class="btn btn-secondary" disabled>Notify When Ready</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-to-use">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Remove Synth ID?</h2>
+            </div>
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Upload Image</h3>
+                    <p>Upload the AI-generated image you want to clean using the Synth ID Remover. The tool analyzes your file to detect hidden Synth ID watermarks.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Remove Synth ID</h3>
+                    <p>Click the “Remove Synth ID” button. The AI scans the image and removes the invisible Synth ID watermark while preserving the original image quality.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Download & Share</h3>
+                    <p>Once the process is complete, download your cleaned image and use it for editing, publishing, or sharing wherever you need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visual Archive</h2>
+                <p>Recent successful extractions.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery-result-1.jpg" alt="Futuristic cyberpunk portrait woman">
+                    <div class="gallery-overlay">
+                        <span><i class="fa-solid fa-check-circle"></i> CLEAN</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-2.jpg" alt="Isometric server room high-tech">
+                    <div class="gallery-overlay">
+                        <span><i class="fa-solid fa-check-circle"></i> CLEAN</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-3.jpg" alt="Abstract neural network nodes">
+                    <div class="gallery-overlay">
+                        <span><i class="fa-solid fa-check-circle"></i> CLEAN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Users Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <p class="quote">"Incredible tool. It detected hidden markers I didn't even know existed in my AI workflow images."</p>
+                    <div class="author">
+                        <span class="name">Alex Chen</span>
+                        <span class="role">Digital Artist</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <p class="quote">"The process is instant. The 'Symbiote' aesthetic is just a bonus to how functional this is."</p>
+                    <div class="author">
+                        <span class="name">Sarah V.</span>
+                        <span class="role">Content Creator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <h2>FAQs About Remove SynthID</h2>
+            </div>
+            <div class="faq-container">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">What is a Synth ID Remover? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>A Synth ID Remover is a tool designed to detect and remove the invisible Synth ID watermark embedded in AI-generated images, resulting in a clean version of the photo.</p></div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">What is Synth ID? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>Synth ID is an invisible digital watermark added to certain Google AI–generated images. It is embedded at the pixel level, making it invisible to the human eye but detectable with specialized tools.</p></div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">Why do AI images include a Synth ID watermark? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>Google AI systems add Synth ID watermarks to help identify AI-generated content and support transparency, tracking, and responsible AI use.</p></div>
+                </div>
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">Does removing Synth ID reduce image quality? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>No. The Synth ID Remover removes the hidden watermark without changing or degrading the visual quality of the image.</p></div>
+                </div>
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">Can it remove other types of watermarks? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>The tool is specifically designed for Synth ID removal and may not work on visible watermarks or other types of digital markers.</p></div>
+                </div>
+                <!-- FAQ 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">Is the Synth ID watermark visible? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>No. Synth ID is completely invisible and can only be detected using tools designed to identify these hidden markers.</p></div>
+                </div>
+                <!-- FAQ 7 -->
+                <div class="faq-item">
+                    <button class="faq-question">What image formats are supported? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>The Synth ID Remover supports common image formats used for AI-generated images, including JPG and PNG.</p></div>
+                </div>
+                <!-- FAQ 8 -->
+                <div class="faq-item">
+                    <button class="faq-question">Is it safe to use a Synth ID Remover? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>Yes. The tool processes images securely and focuses only on detecting and removing the Synth ID watermark.</p></div>
+                </div>
+                <!-- FAQ 9 -->
+                <div class="faq-item">
+                    <button class="faq-question">How long does the removal process take? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer"><p>The process is fast. Simply upload your image, click remove, and receive the cleaned image within moments.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-dna"></i>
+                        <span>HEADSHOT<span class="text-primary">MAKER1</span></span>
+                    </a>
+                    <p>Advanced digital forensics and restoration tools for the AI era.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" data-modal-target="privacy">Privacy Policy</a>
+                    <a href="#" data-modal-target="terms">Terms of Service</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Headshot Maker1. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Modal -->
+    <div id="privacy-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" data-modal-close="privacy">&times;</span>
+            <div class="modal-body">
+                <h2>Privacy Policy</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+
+                <h4>1. Data Collection</h4>
+                <p>We collect only the minimum data necessary:</p>
+                <ul>
+                  <li>Images you upload for processing (temporarily stored)</li>
+                  <li>Basic usage analytics (non-personal)</li>
+                  <li>Browser type and device information</li>
+                </ul>
+
+                <h4>2. Image Processing</h4>
+                <p>Your uploaded images are:</p>
+                <ul>
+                  <li>Processed securely on our servers</li>
+                  <li>Automatically deleted within 24 hours</li>
+                  <li>Never shared with third parties</li>
+                  <li>Not used for AI training without consent</li>
+                </ul>
+
+                <h4>3. Data Security</h4>
+                <p>All data transmission is encrypted using SSL/TLS protocols.</p>
+
+                <h4>4. Cookies</h4>
+                <p>We use essential cookies only for site functionality.</p>
+
+                <h4>5. Your Rights</h4>
+                <p>You have the right to request deletion of any stored data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div id="terms-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" data-modal-close="terms">&times;</span>
+            <div class="modal-body">
+                <h2>Terms of Service</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+
+                <h4>1. Acceptance of Terms</h4>
+                <p>By using this service, you agree to these Terms.</p>
+
+                <h4>2. Service Description</h4>
+                <p>This service provides AI-powered image transformation. Provided "as-is" without warranties.</p>
+
+                <h4>3. Acceptable Use</h4>
+                <p>You agree NOT to upload:</p>
+                <ul>
+                  <li>Illegal or unlawful content</li>
+                  <li>Explicit, pornographic, or obscene material</li>
+                  <li>Content depicting violence or harm</li>
+                  <li>Images you do not have rights to use</li>
+                </ul>
+
+                <h4>4. Intellectual Property</h4>
+                <p>You retain full ownership of your original images. Generated effects are royalty-free for personal and commercial use.</p>
+
+                <h4>5. Limitation of Liability</h4>
+                <p>We are not liable for any damages arising from the use of this service.</p>
+
+                <h4>6. Modifications</h4>
+                <p>We may update these terms at any time. Continued use constitutes acceptance.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
